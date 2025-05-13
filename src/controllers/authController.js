@@ -33,11 +33,11 @@ class AuthController {
       }
 
 
-     /* const userNicknameExists = await UserModel.findByEmail(nickname);
+     const userNicknameExists = await UserModel.findByEmail(nickname);
       if (userNicknameExists) {
         return res.status(400).json({ error: "Este Nickname já está em uso!" });
       }
-        */
+        
 
 
       // Hash da senha
